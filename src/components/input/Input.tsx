@@ -19,7 +19,7 @@ export function Input({onMessageSend}:InputProps) {
     const handleEnterPressed = (event: KeyboardEvent<HTMLInputElement>) => {
       if(event.key !== 'Enter') return
 
-      handleMessageSend
+      handleMessageSend()
     }
     return(
         <>
