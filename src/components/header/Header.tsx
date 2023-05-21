@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Avatar } from "../avatar/avatar";
+import { Avatar } from "../avatar/Avatar";
 
 export function Header() {
     const [name, set] = useState('Igor Đurić')

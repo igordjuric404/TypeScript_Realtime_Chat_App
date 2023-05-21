@@ -17,14 +17,24 @@ export default function Home() {
       <Time><span>11:11pm</span></Time>
 
         <p className='self-end bg-blue-600 text-white py-1 px-2 rounded-2xl mb-4'>
-          My message
+          E Igore
         </p>
 
-      <Message/>
+        <Message
+        me={false} 
+        author="Igor Đurić"
+        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
 
-        <p className='self-end bg-blue-600 text-white py-1 px-2 rounded-2xl mb-4'>
-          Cao ziko
-        </p>
+        <Message
+        me={true} 
+        author="Igor Đurić"
+        text="Šta pričaš ti?" />
+        
+        <Message
+        me={false} 
+        author="Igor Đurić"
+        text="Nista" />
+
       </MessagesContainer>
 
       <Footer>
