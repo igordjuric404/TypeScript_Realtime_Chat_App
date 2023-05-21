@@ -2,8 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.send-icon{
-  position: absolute;
-  right: 20px;
-  top: 10px;
-}
