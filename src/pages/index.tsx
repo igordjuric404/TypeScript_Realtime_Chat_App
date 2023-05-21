@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   const[socket, setSocket] = useState<Socket>()
-  const[messages, setMessages] = useState<array[]>([]);
+  const[messages, setMessages] = useState<Array[]>([]);
 
 useEffect(() => {
     socketInit();
