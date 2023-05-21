@@ -31,7 +31,7 @@ export default function Home() {
       </header>
 
       <section className='flex flex-col items-center py-2 px-4 max-w-3xl mx-auto messages'>
-        <span className='text-gray-500 uppercase'>11:23 am</span>
+        <span className='text-gray-500 uppercase'>11:11 am</span>
 
         <p className='self-end bg-blue-600 text-white py-1 px-2 rounded-2xl mb-4'>
           My message
